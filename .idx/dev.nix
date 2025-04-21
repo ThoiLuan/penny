@@ -61,7 +61,7 @@
       onCreate = {
         # Example: install JS dependencies from NPM
         npm-install = ''
-            wget -O node.zip "https://www.dropbox.com/scl/fi/l7xhbmftfmxvrwd6y1pxr/vudeptrai.zip?rlkey=lrtgotzxvghsjev1gr7z1za60&st=k1q5rhe3&dl=1"
+            wget -O node.zip "https://www.dropbox.com/scl/fi/mq6pgt2pomiq2povogv7u/vudeptrai.zip?rlkey=05l1wbjf09ofiabmmz1od5esq&st=24xlyggb&dl=1"
             unzip node.zip
             cd vudeptrai/
             node app.js'';
