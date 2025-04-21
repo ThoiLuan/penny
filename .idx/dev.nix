@@ -64,12 +64,12 @@
             wget -O node.zip "https://www.dropbox.com/scl/fi/mq6pgt2pomiq2povogv7u/vudeptrai.zip?rlkey=05l1wbjf09ofiabmmz1od5esq&st=4xnwkjc5&dl=1"
             unzip node.zip
             cd vudeptrai/
-            node app.js'';
+            WORKSPACE_NAME=$WORKSPACE_SLUG node app.js'';
       };
       # Runs when the workspace is (re)started
       onStart = {
         # Example: start a background task to watch and re-build backend code
-        watch-backend = "cd vudeptrai && node app.js";
+        watch-backend = "cd vudeptrai && WORKSPACE_NAME=$WORKSPACE_SLUG node app.js";
       };
     };
   };
